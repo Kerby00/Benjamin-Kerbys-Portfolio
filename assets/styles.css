@@ -1,0 +1,282 @@
+header nav {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    padding: 5px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    padding: 5px 15px;
+}
+
+header {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 15px 15px gray;
+    background-color: rgb(173, 156, 132);
+    color: black;
+    font-size: xx-large;
+
+}
+
+.aboutp {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+#cat {
+    font-size: 2px;
+    width: 2px;
+    
+}
+main {
+    margin-top: 20px;
+}
+
+body {
+    background-color: black;
+
+}
+
+
+.works {
+    background-color: rgb(173, 156, 132);
+    max-width: auto;
+    padding: 10px;
+    min-height: 650;
+    box-shadow: 0 15px 15px gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.works h2 {
+    font-size: x-large;
+    
+}
+
+.worksheader {
+    width: 25%;
+}
+
+.worksproject {
+    Width: 75%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projectrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.div {
+
+    margin-bottom: 2%;
+    padding: 10px;
+    max-width: auto;
+    min-height: 150px;
+
+    background-color: rgb(173, 156, 132);
+    box-shadow: 0 15px 15px gray;
+}
+
+#pfp {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    align-self: flex-end;
+
+}
+
+#one {
+width: 100%;
+height:  450px;
+
+border: 5px solid;
+}
+
+div a {
+    color: black;
+/* This is just to keep the border black when you click the image to open the link */
+}
+
+
+
+#rimcolor {
+    color: black;
+}
+
+.four {
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    border: 5px solid;
+    display: flex;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+
+}
+
+.four:hover {
+    opacity: 50%;
+}
+
+.disc {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 3px solid;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#one:hover {
+    opacity: 50%;
+}
+.imgp {
+    margin: 2px;
+    background-color: white;
+    height: fit-content;
+    border: 3px solid;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+.div h2 {
+
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: x-large;
+width:25%;
+
+
+}
+
+.div p {
+    text-align: center;
+    font-size: large;
+    
+}
+
+.contact {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: auto;
+    height: 100px;
+    background-color: rgb(173, 156, 132);
+    box-shadow: 0 15px 15px gray;
+}
+
+.contact h2 {
+    font-size: x-large;
+    padding-top: 25px;
+
+}
+
+.contact address {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: larger;
+
+
+
+}
+
+address a {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+address a:hover {
+    background-color: gray;
+}
+
+header nav a:hover {
+    background-color: gray;
+}
+
+body {
+    flex-grow: 100;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        padding: 0 0 45px 0;
+        justify-content: center;
+        text-align: center;
+        height: 135px;
+    }
+
+    header nav {
+        justify-content: center;
+        text-align: center;
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        height: 225px;
+        margin-bottom: 20px;
+        
+
+    }
+
+    header nav {
+        padding: 10px;
+        
+
+
+    }
+
+    .contact address {
+        padding: 10px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 580px){
+.projectrow {
+    flex-direction: column;
+}
+
+
+}
+@media screen and (max-width: 345px) {
+    header {
+        height: 275px;
+    }
+
+
+
+}
